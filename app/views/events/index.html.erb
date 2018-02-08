@@ -1,0 +1,15 @@
+<h1>Tous les evenements</h1>
+<div class="row">
+  <div class="col-md-4 col-md-offset-2">
+  	<h3>Evenements à venir</h3>
+    <ul class="events">
+      <%= render @upcoming_events %>
+    </ul>
+  </div>
+  <div class="col-md-4 col-md-offset-1">
+  	<h3>Evenement passés</h3>
+    <ul class="events">
+      <%= render @past_events %>
+    </ul>
+  </div>
+</div>
